@@ -1,1 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>YouTube Clone — Demo</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+<div class="brand">YT-Clone</div>
+<input id="searchInput" class="search" placeholder="Search videos..." />
+<div class="user">Guest</div>
+</header>
 
+
+<main class="main">
+<section class="player-area">
+<div id="playerPlaceholder" class="player">Select a video to play</div>
+<h2 id="playerTitle"></h2>
+<p id="playerMeta"></p>
+<div class="actions">
+<button id="likeBtn">👍 <span id="likeCount">0</span></button>
+<button id="subscribeBtn">Subscribe</button>
+</div>
+<div id="comments" class="comments"></div>
+</section>
+
+
+<aside class="sidebar">
+<h3>Recommended</h3>
+<div id="videoList" class="video-list"></div>
+</aside>
+</main>
+
+
+<footer class="footer">Simple YouTube clone — Demo project</footer>
+
+
+<script src="app.js"></script>
+</body>
+</html>
